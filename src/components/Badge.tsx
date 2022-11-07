@@ -1,5 +1,5 @@
 import { Color } from "../types/colors";
-import { BadgeLabel } from "../types/labelTypes";
+import { BadgeLabel } from "../types/badgeLabels";
 
 interface IBadge {
   label: BadgeLabel;

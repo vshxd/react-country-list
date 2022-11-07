@@ -1,10 +1,11 @@
-import React from "react";
 import { Color } from "../types/colors";
 import { ICountry } from "../types/types";
 import { Badge } from "./Badge";
+
 interface ICountryItem {
   country: ICountry;
 }
+
 export const CountryItem = ({
   country: { area, population, name, flag, capital, region },
 }: ICountryItem) => {

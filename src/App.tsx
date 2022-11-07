@@ -1,5 +1,4 @@
-import React from "react";
-import CountryList from "./components/CountryList";
+import { CountryList } from "./components/CountryList";
 import countries from "./country-data.json";
 import { transformCountries } from "./mappers/transformCountries";
 import { Color } from "./types/colors";
@@ -15,5 +14,3 @@ export const App = () => {
     </div>
   );
 };
-
-export default App;
